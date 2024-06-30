@@ -1,0 +1,79 @@
+#hero-section {
+    background-image: url("../../../assets/images/hero-bg-image.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+
+#netflix-icon-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+#sign-in-button {
+    background-color: #E50914;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+#sign-in-button:hover {
+    cursor: pointer;
+}
+
+.hero-text {
+    color: white;
+}
+
+#hero-text-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#hero-section-box {
+    display: block;
+}
+
+#search-div {
+    align-items: center;
+}
+
+#email-input {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 10px;
+    caret-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+#get-started-button {
+    padding: 5px 10px;
+    background-color: #E50914;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+section-2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: absolute;
+    /* Make it positioned relative to the viewport */
+    top: 100vh;
+    /* Place it below the hero section (adjust as needed) */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Offset to avoid overlapping the edge */
+}
